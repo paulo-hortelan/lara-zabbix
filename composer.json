@@ -32,7 +32,7 @@
         "PauloHortelan\\LaraZabbix\\LaraZabbixServiceProvider"
       ],
       "aliases": {
-        "LaraZabbix": "PauloHortelan\\LaraZabbix\\Facades\\LaraZabbixFacade"
+        "LaraZabbix": "PauloHortelan\\LaraZabbix\\Facades\\LaraZabbix"
       }
     }
   },
