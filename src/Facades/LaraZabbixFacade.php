@@ -5,7 +5,7 @@ namespace PauloHortelan\LaraZabbix\Facades;
 use Illuminate\Support\Facades\Facade;
 use PauloHortelan\LaraZabbix\LaraZabbixClass;
 
-class LaraZabbixFacade extends Facade
+class LaraZabbix extends Facade
 {
     protected static function getFacadeAccessor()
     {
