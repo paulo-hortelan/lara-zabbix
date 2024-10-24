@@ -1,0 +1,41 @@
+{
+  "name": "paulo-hortelan/lara-zabbix",
+  "description": "A PHP Laravel package to interact with Zabbix API",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "laravel/framework": "^10.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.1",
+    "laravel/pint": "^1.13"
+  },
+  "autoload": {
+    "psr-4": {
+      "PauloHortelan\\ZabbixLaravel\\": "src/"
+    }
+  },
+  "keywords": [
+    "zabbix",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paulo Hortelan Ribeiro",
+      "email": "paulohincar@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "PauloHortelan\\LaraZabbix\\LaraZabbixServiceProvider"
+      ],
+      "aliases": {
+        "LaraZabbix": "PauloHortelan\\LaraZabbix\\Facades\\LaraZabbixFacade"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
