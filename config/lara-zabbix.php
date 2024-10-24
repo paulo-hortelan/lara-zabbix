@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'host' => env('ZABBIX_HOST', 'localhost').'/'.env('ZABBIX_API_FILE', 'api_jsonrpc.php'),
+    'host' => env('ZABBIX_HOST', 'localhost') . '/' . env('ZABBIX_API_FILE', 'api_jsonrpc.php'),
     'username' => env('ZABBIX_USERNAME', 'admin'),
     'password' => env('ZABBIX_PASSWORD', 'zabbix'),
     'http_username' => env('ZABBIX_HTTP_USERNAME'),
