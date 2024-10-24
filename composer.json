@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "PauloHortelan\\ZabbixLaravel\\": "src/"
+      "PauloHortelan\\LaraZabbix\\": "src/"
     }
   },
   "keywords": [
